@@ -111,4 +111,17 @@ The four plots that you will need to construct are shown below.
 ### Plot 4
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+## Notes for my submission:
+
+1. **load_data.R** is the function file to download, read and tidy the data set.
+2. All files **plot1.R**,**plot2.R**,**plot3.R** and **plot4.R** call the function inside **load_data.R**. Please download the same so that you can run all the other files. 
+3. Graphs have been given colors by me just to exercise and make them look pretty :) . 
+4. All plots have been created in ggplot2 because i feel comfortable making them in ggplot2 and wanted to learn the same.
+
+## Dependencies 
+dplyr
+ggplot2
+scales
+tidyr
+gridExtra
 
